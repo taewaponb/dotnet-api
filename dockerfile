@@ -16,7 +16,7 @@ WORKDIR /app
 COPY --from=build-env /app/out .
 
 # Expose the port on which the app will run
-EXPOSE 8080
+EXPOSE 80
 
 # Run the application
 ENTRYPOINT ["dotnet", "dotnet-api.dll"]
