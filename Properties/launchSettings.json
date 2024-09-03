@@ -8,6 +8,15 @@
       "sslPort": 44380
     }
   },
+  "dotnet-api": {
+    "commandName": "Project",
+    "dotnetRunMessages": true,
+    "launchBrowser": true,
+    "applicationUrl": "http://localhost:80",
+    "environmentVariables": {
+      "ASPNETCORE_ENVIRONMENT": "Development"
+    }
+  },
   "profiles": {
     "http": {
       "commandName": "Project",
